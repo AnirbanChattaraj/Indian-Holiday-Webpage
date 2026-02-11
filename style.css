@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    background-color: rgb(240, 255, 223);
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+/* ================= HEADER ================= */
+
+header {
+    background: linear-gradient(
+        135deg,
+        rgb(168, 223, 142),
+        rgb(255, 170, 184)
+    );
+    text-align: center;
+    padding: 60px 20px;
+    color: white;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+header p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto 10px auto;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.header-note {
+    margin-top: 20px;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+/* ================= FILTER ================= */
+
+.controls {
+    text-align: center;
+    margin: 40px 0;
+}
+
+select {
+    padding: 12px 18px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 170, 184);
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+select:hover {
+    border-color: rgb(168, 223, 142);
+}
+
+/* ================= GRID ================= */
+
+.holiday-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 40px;
+}
+
+/* ================= CARD ================= */
+
+.card {
+    background-color: rgb(255, 216, 223);
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+    transition: all 0.35s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    margin-bottom: 12px;
+    color: #7a2e3a;
+}
+
+.card .date {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.card .state {
+    font-size: 14px;
+    margin-bottom: 12px;
+    font-weight: 500;
+    color: #555;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: 300;
+}
+
+/* ================= FOOTER ================= */
+
+footer {
+    background: linear-gradient(
+        135deg,
+        rgb(255, 170, 184),
+        rgb(168, 223, 142)
+    );
+    color: white;
+    padding: 50px 20px;
+    margin-top: 60px;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.footer-section h4 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 300;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    opacity: 0.9;
+}
