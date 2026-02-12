@@ -85,7 +85,7 @@ Historical significance
 Web Development Enthusiast
 Exploring fundamentals before frameworks.
 
-🇮🇳 Final Note
+🇮🇳 Final Note:
 
 "Unity in Diversity is not just a slogan — it is India's living reality."
 
