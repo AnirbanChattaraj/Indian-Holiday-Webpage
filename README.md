@@ -57,7 +57,7 @@ Modern hover effects and UI transitions
 
 HTML5
 
-CSS3 (Grid + Flexbox + Gradients)
+CSS3 
 
 JavaScript (DOM manipulation)
 
