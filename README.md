@@ -4,7 +4,7 @@ A responsive web application that showcases important national, religious, and s
 
 This project highlights India’s cultural diversity and unity through an interactive and visually elegant interface.
 
-🌟 Project Overview:
+🌟 Project Overview
 
 India is a country rich in traditions, festivals, and cultural heritage.
 This web application provides:
@@ -21,7 +21,7 @@ State-based filtering system
 
 The goal of this project is to combine cultural awareness with modern web design.
 
-🎨 Design System:
+🎨 Design System
 
 The UI uses a soft pastel theme for a premium, cultural feel:
 
@@ -33,7 +33,7 @@ rgb(255, 216, 223) – Card accent
 
 rgb(255, 170, 184) – Highlight gradient
 
-Typography:
+Typography
 
 Playfair Display – Headings (Elegant & Traditional)
 
