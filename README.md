@@ -39,7 +39,7 @@ Playfair Display – Headings (Elegant & Traditional)
 
 Poppins – Body text (Modern & Clean)
 
-🚀 Features
+🚀 Features:
 
 Responsive design (mobile + desktop)
 
@@ -53,7 +53,7 @@ Premium gradient header and footer
 
 Modern hover effects and UI transitions
 
-🛠️ Tech Stack
+🛠️ Tech Stack:
 
 HTML5
 
